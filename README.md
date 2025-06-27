@@ -10,4 +10,5 @@ Transcribe online meetings in real-time. Output saved as .txt files locally.
 6. Remove unpacked extension when no longer needed. Your meeting data of unpacked extension and extension installed from Chrome Store, are stored separately.
 
 Made with <3
+
 Have a nice day!!
