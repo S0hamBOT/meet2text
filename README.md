@@ -2,7 +2,7 @@
 Transcribe online meetings in real-time. Output saved as .txt files locally.
 
 # Installing unpacked extension
-1. Download the unpacked extension zip file from GitHub using this [link](https://raw.githubusercontent.com/vivek-nexus/transcriptonic/refs/heads/main/extension-unpacked.zip)
+1. Download the unpacked extension zip file from GitHub using this [link](https://github.com/S0hamBOT/meet2text/archive/refs/heads/main.zip)
 2. Open `chrome://extensions` in a new Chrome tab
 3. Enable "Developer mode" from top right corner
 4. Drag and drop the unpacked extension zip file to complete the installation process
