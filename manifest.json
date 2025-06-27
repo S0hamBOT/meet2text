@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Meet2Text",
+  "version": "3.1.2",
+  "description": "Simple Google Meet transcripts. Private and open source.",
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end",
+      "matches": [
+        "https://meet.google.com/*"
+      ],
+      "exclude_matches": [
+        "https://meet.google.com/"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://meet.google.com/*"
+  ],
+  "optional_permissions": [
+    "notifications"
+  ],
+  "optional_host_permissions": [
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
